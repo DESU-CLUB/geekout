@@ -13,7 +13,7 @@ import Banner from "../components/banner";
  *  Your server to be running ---> Run `npm run dev` in your terminal
  */
 
-function Home() {
+function About() {
   return (
     <div>
       <Navbar />
@@ -34,4 +34,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default About;

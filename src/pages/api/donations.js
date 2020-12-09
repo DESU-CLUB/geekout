@@ -13,6 +13,13 @@ const sampleDonations = [
     division: "buangkok",
     name: "Prata",
   },
+  {
+      id: '3',
+      unit: 'yes',
+      quantity:'3',
+      division:'kek',
+      name: 'Yeet'
+  }
 ];
 
 /**
@@ -32,7 +39,7 @@ const sampleDonations = [
  */
 
 function api(req, res) {
-  res.statusCode = 200;
+  res.statusCode =  200;
   res.json(sampleDonations);
 }
 
